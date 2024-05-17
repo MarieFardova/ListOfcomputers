@@ -73,4 +73,15 @@ public class Computer {
     public void setLaptop(boolean laptop) {
         isLaptop = laptop;
     }
+
+    @Override
+    public String toString() {
+        return "Computer{" +
+                "model='" + model + '\'' +
+                ", weight=" + weight +
+                ", diagonalOfMonitor=" + diagonalOfMonitor +
+                ", isCompanyComputer=" + isCompanyComputer +
+                ", isLaptop=" + isLaptop +
+                '}';
+    }
 }
