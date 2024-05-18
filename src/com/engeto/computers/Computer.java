@@ -74,14 +74,16 @@ public class Computer {
         isLaptop = laptop;
     }
 
+
+    //pravé tlačítko Generate -> to string
     @Override
     public String toString() {
-        return "Computer{" +
-                "model='" + model + '\'' +
-                ", weight=" + weight +
-                ", diagonalOfMonitor=" + diagonalOfMonitor +
-                ", isCompanyComputer=" + isCompanyComputer +
-                ", isLaptop=" + isLaptop +
-                '}';
-    }
-}
+        return getDescription();
+    }}
+
+
+
+
+
+
+
